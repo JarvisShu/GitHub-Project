@@ -25,6 +25,7 @@ public class BubbleSort {
 
     private static void bubbleSort(int[] array) {
         if (array == null){
+            System.out.println(" Please enter an array! ");
             return;
         }
         for (int i = 0; i < array.length - 1; i++) {
