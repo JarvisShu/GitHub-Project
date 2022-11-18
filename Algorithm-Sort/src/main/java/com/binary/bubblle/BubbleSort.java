@@ -19,7 +19,7 @@ public class BubbleSort {
         }
         System.out.println(Arrays.toString(array));
         bubbleSort(array);
-        System.out.println(" =================== ");
+        System.out.println(" ------------------- ");
         System.out.println(Arrays.toString(array));
     }
 
